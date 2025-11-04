@@ -18,6 +18,8 @@ class UserBuilder
         $this->usuario = new User();
         $this->teste = 'teste';
         $this->teste2 = 'teste2';
+        $this->teste3 = 'teste3';   
+
     }
 
     public function setName(string $name): self
