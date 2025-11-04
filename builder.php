@@ -16,6 +16,7 @@ class UserBuilder
     public function __construct()
     {
         $this->usuario = new User();
+        $this->teste = 'teste';
     }
 
     public function setName(string $name): self
